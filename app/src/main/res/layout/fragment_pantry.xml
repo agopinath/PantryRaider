@@ -1,59 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:id="@+id/activity_home"
-android:layout_width="match_parent"
-android:layout_height="match_parent">
-
-<TextView
-    android:id="@+id/pantyMainText"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="30dp"
-    android:layout_weight="1"
-    android:text="Pantry"
-    android:textAlignment="center"
-    android:textAllCaps="false"
-    android:textSize="30sp"
-    android:textStyle="bold" />
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
 
-<Button
-    android:id="@+id/buttonMyRecipes"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignEnd="@+id/buttonMyIngredients"
-    android:layout_alignStart="@+id/buttonMyIngredients"
-    android:layout_below="@+id/buttonMyIngredients"
-    android:layout_marginTop="51dp"
-    android:layout_weight="1"
-    android:backgroundTint="@android:color/holo_orange_dark"
-    android:text="My recipes" />
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pantry"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
 
-<Button
-    android:id="@+id/savedRecipeButton"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignEnd="@+id/buttonMyRecipes"
-    android:layout_alignStart="@+id/buttonMyRecipes"
-    android:layout_below="@+id/buttonMyRecipes"
-    android:layout_marginTop="50dp"
-    android:layout_weight="1"
-    android:backgroundTint="@android:color/holo_orange_dark"
-    android:text="Saved Recipes"
-    android:textAlignment="center" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.43" />
 
-<Button
-    android:id="@+id/buttonMyIngredients"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/pantyMainText"
-    android:layout_centerHorizontal="true"
-    android:layout_marginTop="47dp"
-    android:layout_weight="1"
-    android:backgroundTint="@android:color/holo_orange_dark"
-    android:text="My Ingredients" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:text="My Ingredient"
+        tools:ignore="ButtonStyle,HardcodedText,InefficientWeight" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:text="My Recipe" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/savedRecipeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:text="Saved Recipe"
+        tools:ignore="HardcodedText" />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.17" />
+
+</LinearLayout>

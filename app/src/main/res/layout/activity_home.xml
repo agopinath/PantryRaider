@@ -9,16 +9,18 @@
     android:layout_height="match_parent"
     tools:context="com.example.stevetran.pantryraider.Home.HomeActivity">
 
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <!-- Middle section (body) -->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/relLayout2"
-            android:layout_below="@+id/relLayout1">
+            android:id="@+id/relLayout2">
 
             <include layout="@layout/layout_center_viewpager"/>
 

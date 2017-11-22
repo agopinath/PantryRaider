@@ -22,10 +22,7 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        //set up the bottom navigation view
         setupBottomNavigationView();
-        //set up view pager for the fragments
-//        setupViewPager();
     }
 
     /**

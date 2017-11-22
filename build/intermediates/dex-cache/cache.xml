@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9c5b5400052710ff5d18b3b8a7a06e4c074e42a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rongfalu/.android/build-cache/c66a9c288f8ab0d4fdcc9b36421ea7335f0ddd5f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_21fc748d66feecc64a43335aff739dadcde301bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rongfalu/.android/build-cache/f6cabb6ec2f0138e1a67f1e83bade452b3c2b592/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4a7dbb8a86f550a8f753607ce7b919287579db9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rongfalu/.android/build-cache/3b1645f28e1e6c5fcca4b2bac551511dc2921490/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8db0c2a5862e4901ff4bc007bd038ae6e9b8fba5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rongfalu/.android/build-cache/4a271ff6e4126a5b4344870ac331be2ab25c8955/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dde045b10a70ba5eb6ae9f035e520ce487e5d531/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ef18f96cce974e30415c078f4a9b88f4763f7af">
+        <dex dex="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_896042a6842ad75a52753d256b09dc4090ffc53f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rongfalu/.android/build-cache/5623cce42ae2d2d1a7e73e1caadfdb3523acb30f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c03533ab2cab395b5ca614f810f55548a823dcbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rongfalu/.android/build-cache/47ab8e9a611dc7d69d015a78a7812eaa4977205a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f0d0dd4bed0652406cd4a666d493c36778904d76/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rongfalu/.android/build-cache/4525683d29cea0f66e2523e3e07026ea021da42e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_87c96d6004897be761a7f7fa9b73434cf139112a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/rongfalu/.android/build-cache/8ee8346826fa2673633eff4e6ae1ba8950a13d47/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/rongfalu/AndroidStudioProjects/pantryraider/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_89a9a0eff5bbf65c61904da243a8e9bc08669403/classes.dex" />
+    </item>
+
+</items>

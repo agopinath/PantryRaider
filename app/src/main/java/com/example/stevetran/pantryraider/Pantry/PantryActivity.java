@@ -9,7 +9,6 @@ import android.view.MenuItem;
 
 import com.example.stevetran.pantryraider.R;
 import com.example.stevetran.pantryraider.Util.BottomNavigationHelper;
-import com.example.stevetran.pantryraider.Util.SectionsPagerAdapter;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 /**
@@ -25,18 +24,17 @@ public class PantryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantry);
-        //set up the bottom navigation view
+
         setupBottomNavigationView();
-        //set up view pager for the fragments
         setupViewPager();
+
     }
     /**
      * start fragments
      */
     private void setupViewPager(){
         SectionsPagerAdapter adapter = new SectionsPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new PantryFragment()); //index 0
-        adapter.addFragment(new SavedRecipeFragment()); //index 1
+        adapter.addFragment(new PantryFragment()); //index 2
         ViewPager viewPager = (ViewPager) findViewById(R.id.container); //from layout_center_viewpager
         viewPager.setAdapter(adapter);
 

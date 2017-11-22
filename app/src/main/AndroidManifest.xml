@@ -23,8 +23,8 @@
         <activity android:name=".Setting.SettingActivity"></activity>
         <activity android:name=".Setting.ChangePasswordActivity"></activity>
         <activity android:name=".Pantry.SavedRecipeActivity"></activity>
-        <activity android:name=".Setting.SetPreferencesActivity"></activity>
-        <activity android:name=".Pantry.MyIngredientsActivity"></activity>
+        <activity android:name=".Login.LoginActivity"></activity>
+        <activity android:name=".Login.SignUpActivity"></activity>
     </application>
 
 </manifest>

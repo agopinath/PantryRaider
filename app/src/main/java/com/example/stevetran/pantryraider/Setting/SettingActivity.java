@@ -7,9 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.stevetran.pantryraider.Pantry.SectionsPagerAdapter;
 import com.example.stevetran.pantryraider.R;
 import com.example.stevetran.pantryraider.Util.BottomNavigationHelper;
-import com.example.stevetran.pantryraider.Util.SectionsPagerAdapter;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 /**
@@ -24,9 +24,8 @@ public class SettingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
-        //set up the bottom navigation view
+
         setupBottomNavigationView();
-        //set up view pager for the fragments
         setupViewPager();
     }
     /**
@@ -35,11 +34,10 @@ public class SettingActivity extends AppCompatActivity {
     private void setupViewPager(){
         SectionsPagerAdapter adapter = new SectionsPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new SettingFragment());
-//        adapter.addFragment(new SetPreferencesFragment());
         ViewPager viewPager = (ViewPager) findViewById(R.id.container); //from layout_center_viewpager
         viewPager.setAdapter(adapter);
-    }
 
+    }
     /**
      * BottomNavigationView setup
      */
