@@ -17,6 +17,7 @@ import com.example.stevetran.pantryraider.R;
 
 public class PantryFragment extends Fragment implements View.OnClickListener{
     Button savedRecipeButton;
+    Button myIngredientsButton;
     View view;
     @Nullable
     @Override
@@ -26,6 +27,9 @@ public class PantryFragment extends Fragment implements View.OnClickListener{
         //set up buttons
         savedRecipeButton = (Button) view.findViewById(R.id.savedRecipeButton);
         savedRecipeButton.setOnClickListener(this);
+
+        myIngredientsButton = (Button) view.findViewById(R.id.myIngredientsButton);
+        myIngredientsButton.setOnClickListener(this);
 
         return view;
     }
@@ -37,7 +41,13 @@ public class PantryFragment extends Fragment implements View.OnClickListener{
                 Intent intent = new Intent(getActivity(), SavedRecipeActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.myIngredientsButton:
+                Intent ingrintent = new Intent(getActivity(), MyIngredientsActivity.class);
+                startActivity(ingrintent);
+                break;
         }
     }
+
 }
+
 

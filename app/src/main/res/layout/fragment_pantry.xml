@@ -21,11 +21,11 @@
         android:layout_weight="0.43" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/myIngredientsButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.12"
-        android:text="My Ingredient"
+        android:text="My Ingredients"
         tools:ignore="ButtonStyle,HardcodedText,InefficientWeight" />
 
     <Button

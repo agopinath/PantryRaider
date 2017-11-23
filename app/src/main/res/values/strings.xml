@@ -5,7 +5,7 @@
     <string name="text_favorites">Favorites</string>
     <string name="text_schedules">Schedules</string>
     <string name="text_music">Music</string>
-    <string-array name="saved_recipes" >
+    <string-array name="saved_recipes">
         <item>chicken</item>
     </string-array>
     <string name="promt_email">email</string>
@@ -13,4 +13,7 @@
     <string name="action_sign_up_short">action_sign_up_short</string>
     <string name="action_sign_in">action_sign_in</string>
     <string name="action_sign_up">action_sign_up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
